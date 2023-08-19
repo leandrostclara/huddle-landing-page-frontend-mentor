@@ -1,6 +1,6 @@
-/* Feel free to remove these styles or customise in your own stylesheet 👍
+Feel free to remove these styles or customise in your own stylesheet 👍
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }  */
+.attribution a { color: hsl(300, 69%, 71%); } 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
@@ -45,6 +45,7 @@ main {
     font-size: 2.8rem;
     margin-left: 60px;
     margin-top: 80px;
+    margin-right: 20px;
 }
 
 .principal .content h3 {
@@ -54,7 +55,7 @@ main {
     font-size: 1.2rem;
     line-height: 30px;
     margin-left: 60px;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 .principal .content button {
@@ -69,7 +70,7 @@ main {
     color: hsl(257, 40%, 49%);
     margin-left: 60px;
     margin-top: 10px;
-    transition: .3s;
+    transition: .3s ease-in-out;
 }
 
 .principal .content button:hover {
@@ -78,4 +79,32 @@ main {
     color: #fff;
     cursor: pointer;
     outline: #fff solid 1px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    margin-top: 150px;
+}
+
+.social i {
+    font-size: 2.6rem;
+    color: #fff;
+    margin: 0 15px;
+    transition: .2s ease-in-out;
+}
+
+.social i:hover {
+    color: hsl(300, 69%, 71%);
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
 }
