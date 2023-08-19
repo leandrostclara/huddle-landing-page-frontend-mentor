@@ -2,6 +2,9 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }  */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 html {
     font-size: 62,5%;
 }
@@ -12,12 +15,34 @@ body {
 }
 
 main {
-    background-color: blueviolet;
+    background-color: hsl(257, 40%, 49%);
 }
 
 .container {
+    justify-content: center;
     width: 1440px;
     height: 800px;
     background-color: aqua;
     background: url('./images/bg-desktop.svg') center center no-repeat;
+}
+
+.container {
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.principal .content h1 {
+    font-family: poppins, sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+.principal .content h3 {
+    font-family: 'open sans', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
 }
