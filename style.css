@@ -19,13 +19,18 @@ main {
 }
 
 .container {
-    justify-content: center;
     width: 1440px;
     height: 800px;
     background: url('./images/bg-desktop.svg') center center no-repeat;
 }
 
-.container {
+.container .logo img {
+    margin: 60px 80px;
+}
+
+.principal .image img {
+    margin-top: 30px;
+    margin-left: 80px;
 }
 
 .principal {
@@ -37,13 +42,19 @@ main {
     font-family: poppins, sans-serif;
     color: #fff;
     font-weight: 600;
+    font-size: 2.8rem;
+    margin-left: 60px;
+    margin-top: 80px;
 }
 
 .principal .content h3 {
     font-family: 'open sans', sans-serif;
     color: #fff;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    line-height: 30px;
+    margin-left: 60px;
+    margin-right: 40px;
 }
 
 .principal .content button {
@@ -53,7 +64,18 @@ main {
     padding: 15px 70px;
     font-family: 'poppins', sans-serif;
     font-weight: 500;
-    box-shadow: 1px 1px 30px hsl(257, 20%, 39%);
+    box-shadow: 3px 3px 20px hsl(257, 20%, 39%);
     font-size: 1.2rem;
     color: hsl(257, 40%, 49%);
+    margin-left: 60px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.principal .content button:hover {
+    box-shadow: none;
+    background-color: hsl(257, 20%, 39%);
+    color: #fff;
+    cursor: pointer;
+    outline: #fff solid 1px;
 }
